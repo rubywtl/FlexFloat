@@ -5,6 +5,10 @@
 
 namespace CustomFP{
 class ExMy {
+private:
+    unsigned sign_bits;
+    unsigned mantissa_bits;
+    unsigned exponent_bits;
 public:
     enum FP_status {
         normal = 0,
@@ -15,10 +19,6 @@ public:
     };
 
     FP_status status;
-
-    unsigned sign_bits;
-    unsigned mantissa_bits;
-    unsigned exponent_bits;
 
     unsigned sign;
     unsigned long long mantissa;
@@ -80,9 +80,9 @@ public:
 
     // check if format matches
     bool data_format_cmp(const ExMy& a, const ExMy& b) const {
-        return (a.exponent_bits == b.exponent_bits &&
-                a.mantissa_bits == b.mantissa_bits &&
-                a.sign_bits == b.sign_bits);
+        return (a.get_exponent_bits() == b.get_exponent_bits() &&
+                a.get_mantissa_bits() == b.get_mantissa_bits() &&
+                a.get_sign_bits() == b.get_sign_bits());
     }
 
     // align exponent by shifting mantissa
@@ -99,7 +99,7 @@ public:
 };
 
 // multiplication
-class multiplier : public Operator {
+class Multiplier : public Operator {
 public:
     bool mul(const ExMy* a, const ExMy* b, ExMy* result) {
         result->sign = a->sign ^ b->sign;
@@ -113,7 +113,7 @@ public:
 };
 
 // division
-class divider : public Operator {
+class Divider : public Operator {
 public:
     bool divide(const ExMy* a, const ExMy* b, ExMy* result) {
         result->sign = a->sign ^ b->sign;
@@ -127,7 +127,7 @@ public:
 };
 
 // addition
-class adder : public Operator {
+class Adder : public Operator {
 public:
     bool add(ExMy* a, ExMy* b, ExMy* result) {
         if (!data_format_cmp(*a, *b)) return false;
@@ -158,7 +158,7 @@ public:
 };
 
 // subtraction
-class subtraction : public Operator {
+class Subtractor : public Operator {
 public:
     bool subtract(ExMy* a, ExMy* b, ExMy* result) {
         if (!data_format_cmp(*a, *b)) return false;

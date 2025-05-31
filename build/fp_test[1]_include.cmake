@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test[1]_tests.cmake")
+  include("/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test[1]_tests.cmake")
+else()
+  add_test(fp_test_NOT_BUILT fp_test_NOT_BUILT)
+endif()

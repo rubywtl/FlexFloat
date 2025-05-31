@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/fp_test.dir/test/unit_test.cpp.o -o fp_test  lib/libgtest_main.a libCustomFP.a lib/libgtest.a 

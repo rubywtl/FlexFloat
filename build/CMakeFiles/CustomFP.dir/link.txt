@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCustomFP.a CMakeFiles/CustomFP.dir/src/CustomFP.cpp.o
+/usr/bin/ranlib libCustomFP.a
