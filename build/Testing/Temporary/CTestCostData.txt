@@ -1,0 +1,26 @@
+FPTest.BitWidthInitTest 16 0.00635712
+FPTest.SetandGetRawBitsTest 16 0.00837897
+FPTest.SetandGetRawBits_Subnormal_Test 13 0.00820058
+FPTest.DataFormatCMP_Test 16 0.00602776
+FPTest.StatusFlagTest 11 0.010379
+FPTest.Add_MixedPrecisionTest 0 0
+FPTest.E3M4_Add_SamePrecision_Test 16 0.00762384
+FPTest.FP16_Add_NoOverflow_SamePrecision_Test 16 0.00713347
+FPTest.MultiplicationWithOne 0 0
+FPTest.MultiplicationDifferentValues 0 0
+FPTest.MultiplicationIdentityCheck 0 0
+FPTest.MultiplicationWithZero 14 0.00674574
+FPTest.SetandGetRawBits_NaN_Test 8 0.0179613
+FPTest.SetandGetRawBits_PositiveInf_Test 8 0.0179641
+FPTest.SetandGetRawBits_NegativeInf_Test 8 0.014033
+FPTest.SetandGetRawBits_PositiveZero_Test 14 0.00858549
+FPTest.Add_Inf_Test 3 0.0481146
+FPTest.Add_NaN_Test 3 0.0372773
+FPTest.Multiply_Inf_Test 0 0
+FPTest.Multiply_NaN_Test 0 0
+---
+FPTest.Add_MixedPrecisionTest
+FPTest.MultiplicationWithOne
+FPTest.MultiplicationDifferentValues
+FPTest.Multiply_Inf_Test
+FPTest.Multiply_NaN_Test

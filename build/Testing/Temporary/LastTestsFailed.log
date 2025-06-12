@@ -1,0 +1,5 @@
+9:FPTest.Add_MixedPrecisionTest
+14:FPTest.MultiplicationWithOne
+15:FPTest.MultiplicationDifferentValues
+17:FPTest.Multiply_Inf_Test
+18:FPTest.Multiply_NaN_Test

@@ -4,6 +4,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string>
 
 namespace CustomFP{
 class ExMy {
@@ -13,7 +14,11 @@ private:
     unsigned exponent_bits;
 
 public:
-    enum FP_status {
+    unsigned sign;
+    unsigned long long mantissa;
+    unsigned long long exponent;
+
+    enum class FP_status {
         normal = 0,
         subnormal,
         NaN,
@@ -22,12 +27,9 @@ public:
     };
 
     FP_status status;
-
-
-    unsigned sign;
-    unsigned long long mantissa;
-    unsigned long long exponent;
-
+    // determine floating-point status
+    void IEEE754_status_update();
+    
     // constructor
     ExMy(unsigned sign_bits, unsigned exponent_bits, unsigned mantissa_bits);
 
@@ -42,12 +44,16 @@ public:
         return sign_bits + mantissa_bits + exponent_bits;
     }
 
+    FP_status get_flag();
+
+    std::string get_flag_str() const;
+
+
     unsigned long long get_raw_bits();
 
     void set_bits(unsigned long long raw_value);
 
-    // determine floating-point status
-    void IEEE754_status_update();
+    void set_inf();
 
     void clamp_to_format();
 

@@ -1,0 +1,551 @@
+Start testing: Jun 11 22:36 PDT
+----------------------------------------------------------
+1/18 Testing: FPTest.BitWidthInitTest
+1/18 Test: FPTest.BitWidthInitTest
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.BitWidthInitTest" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.BitWidthInitTest" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.BitWidthInitTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.BitWidthInitTest
+[       OK ] FPTest.BitWidthInitTest (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.BitWidthInitTest" end time: Jun 11 22:36 PDT
+"FPTest.BitWidthInitTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/18 Testing: FPTest.SetandGetRawBitsTest
+2/18 Test: FPTest.SetandGetRawBitsTest
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.SetandGetRawBitsTest" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.SetandGetRawBitsTest" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.SetandGetRawBitsTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.SetandGetRawBitsTest
+normal
+[       OK ] FPTest.SetandGetRawBitsTest (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.SetandGetRawBitsTest" end time: Jun 11 22:36 PDT
+"FPTest.SetandGetRawBitsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/18 Testing: FPTest.SetandGetRawBits_Subnormal_Test
+3/18 Test: FPTest.SetandGetRawBits_Subnormal_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.SetandGetRawBits_Subnormal_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.SetandGetRawBits_Subnormal_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.SetandGetRawBits_Subnormal_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.SetandGetRawBits_Subnormal_Test
+subnormal
+[       OK ] FPTest.SetandGetRawBits_Subnormal_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.SetandGetRawBits_Subnormal_Test" end time: Jun 11 22:36 PDT
+"FPTest.SetandGetRawBits_Subnormal_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/18 Testing: FPTest.SetandGetRawBits_NaN_Test
+4/18 Test: FPTest.SetandGetRawBits_NaN_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.SetandGetRawBits_NaN_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.SetandGetRawBits_NaN_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.SetandGetRawBits_NaN_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.SetandGetRawBits_NaN_Test
+NaN
+[       OK ] FPTest.SetandGetRawBits_NaN_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.SetandGetRawBits_NaN_Test" end time: Jun 11 22:36 PDT
+"FPTest.SetandGetRawBits_NaN_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/18 Testing: FPTest.SetandGetRawBits_PositiveInf_Test
+5/18 Test: FPTest.SetandGetRawBits_PositiveInf_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.SetandGetRawBits_PositiveInf_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.SetandGetRawBits_PositiveInf_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.SetandGetRawBits_PositiveInf_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.SetandGetRawBits_PositiveInf_Test
+inf
+[       OK ] FPTest.SetandGetRawBits_PositiveInf_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.SetandGetRawBits_PositiveInf_Test" end time: Jun 11 22:36 PDT
+"FPTest.SetandGetRawBits_PositiveInf_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/18 Testing: FPTest.SetandGetRawBits_NegativeInf_Test
+6/18 Test: FPTest.SetandGetRawBits_NegativeInf_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.SetandGetRawBits_NegativeInf_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.SetandGetRawBits_NegativeInf_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.SetandGetRawBits_NegativeInf_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.SetandGetRawBits_NegativeInf_Test
+inf
+[       OK ] FPTest.SetandGetRawBits_NegativeInf_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.SetandGetRawBits_NegativeInf_Test" end time: Jun 11 22:36 PDT
+"FPTest.SetandGetRawBits_NegativeInf_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/18 Testing: FPTest.SetandGetRawBits_PositiveZero_Test
+7/18 Test: FPTest.SetandGetRawBits_PositiveZero_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.SetandGetRawBits_PositiveZero_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.SetandGetRawBits_PositiveZero_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.SetandGetRawBits_PositiveZero_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.SetandGetRawBits_PositiveZero_Test
+zero
+[       OK ] FPTest.SetandGetRawBits_PositiveZero_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.SetandGetRawBits_PositiveZero_Test" end time: Jun 11 22:36 PDT
+"FPTest.SetandGetRawBits_PositiveZero_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/18 Testing: FPTest.DataFormatCMP_Test
+8/18 Test: FPTest.DataFormatCMP_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.DataFormatCMP_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.DataFormatCMP_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.DataFormatCMP_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.DataFormatCMP_Test
+[       OK ] FPTest.DataFormatCMP_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.DataFormatCMP_Test" end time: Jun 11 22:36 PDT
+"FPTest.DataFormatCMP_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/18 Testing: FPTest.Add_MixedPrecisionTest
+9/18 Test: FPTest.Add_MixedPrecisionTest
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.Add_MixedPrecisionTest" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.Add_MixedPrecisionTest" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.Add_MixedPrecisionTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.Add_MixedPrecisionTest
+/mnt/c/Users/rubyw/Documents/CustomFP/test/unit_test.cpp:127: Failure
+Expected equality of these values:
+  result->get_raw_bits()
+    Which is: 4112
+  0x4000
+    Which is: 16384
+[  FAILED  ] FPTest.Add_MixedPrecisionTest (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FPTest.Add_MixedPrecisionTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"FPTest.Add_MixedPrecisionTest" end time: Jun 11 22:36 PDT
+"FPTest.Add_MixedPrecisionTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/18 Testing: FPTest.E3M4_Add_SamePrecision_Test
+10/18 Test: FPTest.E3M4_Add_SamePrecision_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.E3M4_Add_SamePrecision_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.E3M4_Add_SamePrecision_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.E3M4_Add_SamePrecision_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.E3M4_Add_SamePrecision_Test
+[       OK ] FPTest.E3M4_Add_SamePrecision_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.E3M4_Add_SamePrecision_Test" end time: Jun 11 22:36 PDT
+"FPTest.E3M4_Add_SamePrecision_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/18 Testing: FPTest.FP16_Add_NoOverflow_SamePrecision_Test
+11/18 Test: FPTest.FP16_Add_NoOverflow_SamePrecision_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.FP16_Add_NoOverflow_SamePrecision_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.FP16_Add_NoOverflow_SamePrecision_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.FP16_Add_NoOverflow_SamePrecision_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.FP16_Add_NoOverflow_SamePrecision_Test
+[       OK ] FPTest.FP16_Add_NoOverflow_SamePrecision_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.FP16_Add_NoOverflow_SamePrecision_Test" end time: Jun 11 22:36 PDT
+"FPTest.FP16_Add_NoOverflow_SamePrecision_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/18 Testing: FPTest.Add_Inf_Test
+12/18 Test: FPTest.Add_Inf_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.Add_Inf_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.Add_Inf_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.Add_Inf_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.Add_Inf_Test
+[       OK ] FPTest.Add_Inf_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.Add_Inf_Test" end time: Jun 11 22:36 PDT
+"FPTest.Add_Inf_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/18 Testing: FPTest.Add_NaN_Test
+13/18 Test: FPTest.Add_NaN_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.Add_NaN_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.Add_NaN_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.Add_NaN_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.Add_NaN_Test
+[       OK ] FPTest.Add_NaN_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.Add_NaN_Test" end time: Jun 11 22:36 PDT
+"FPTest.Add_NaN_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/18 Testing: FPTest.MultiplicationWithOne
+14/18 Test: FPTest.MultiplicationWithOne
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.MultiplicationWithOne" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.MultiplicationWithOne" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.MultiplicationWithOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.MultiplicationWithOne
+/mnt/c/Users/rubyw/Documents/CustomFP/test/unit_test.cpp:225: Failure
+Expected equality of these values:
+  result->get_raw_bits()
+    Which is: 2103705600
+  0x41480000
+    Which is: 1095237632
+[  FAILED  ] FPTest.MultiplicationWithOne (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FPTest.MultiplicationWithOne
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Failed.
+"FPTest.MultiplicationWithOne" end time: Jun 11 22:36 PDT
+"FPTest.MultiplicationWithOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/18 Testing: FPTest.MultiplicationDifferentValues
+15/18 Test: FPTest.MultiplicationDifferentValues
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.MultiplicationDifferentValues" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.MultiplicationDifferentValues" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.MultiplicationDifferentValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.MultiplicationDifferentValues
+/mnt/c/Users/rubyw/Documents/CustomFP/test/unit_test.cpp:243: Failure
+Expected equality of these values:
+  result->get_raw_bits()
+    Which is: 2118123520
+  0x42000000
+    Which is: 1107296256
+[  FAILED  ] FPTest.MultiplicationDifferentValues (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FPTest.MultiplicationDifferentValues
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"FPTest.MultiplicationDifferentValues" end time: Jun 11 22:36 PDT
+"FPTest.MultiplicationDifferentValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/18 Testing: FPTest.MultiplicationWithZero
+16/18 Test: FPTest.MultiplicationWithZero
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.MultiplicationWithZero" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.MultiplicationWithZero" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.MultiplicationWithZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.MultiplicationWithZero
+[       OK ] FPTest.MultiplicationWithZero (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"FPTest.MultiplicationWithZero" end time: Jun 11 22:36 PDT
+"FPTest.MultiplicationWithZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/18 Testing: FPTest.Multiply_Inf_Test
+17/18 Test: FPTest.Multiply_Inf_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.Multiply_Inf_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.Multiply_Inf_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.Multiply_Inf_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.Multiply_Inf_Test
+/mnt/c/Users/rubyw/Documents/CustomFP/test/unit_test.cpp:281: Failure
+Expected equality of these values:
+  result->get_flag()
+    Which is: 4-byte object <00-00 00-00>
+  ExMy::FP_status::inf
+    Which is: 4-byte object <03-00 00-00>
+/mnt/c/Users/rubyw/Documents/CustomFP/test/unit_test.cpp:282: Failure
+Expected equality of these values:
+  result->get_raw_bits()
+    Which is: 2048
+  0x7C00
+    Which is: 31744
+[  FAILED  ] FPTest.Multiply_Inf_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FPTest.Multiply_Inf_Test
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"FPTest.Multiply_Inf_Test" end time: Jun 11 22:36 PDT
+"FPTest.Multiply_Inf_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/18 Testing: FPTest.Multiply_NaN_Test
+18/18 Test: FPTest.Multiply_NaN_Test
+Command: "/mnt/c/Users/rubyw/Documents/CustomFP/build/fp_test" "--gtest_filter=FPTest.Multiply_NaN_Test" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/rubyw/Documents/CustomFP/build
+"FPTest.Multiply_NaN_Test" start time: Jun 11 22:36 PDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rubyw/Documents/CustomFP/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FPTest.Multiply_NaN_Test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FPTest
+[ RUN      ] FPTest.Multiply_NaN_Test
+/mnt/c/Users/rubyw/Documents/CustomFP/test/unit_test.cpp:301: Failure
+Expected equality of these values:
+  result->get_flag()
+    Which is: 4-byte object <00-00 00-00>
+  ExMy::FP_status::NaN
+    Which is: 4-byte object <02-00 00-00>
+[  FAILED  ] FPTest.Multiply_NaN_Test (0 ms)
+[----------] 1 test from FPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FPTest.Multiply_NaN_Test
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"FPTest.Multiply_NaN_Test" end time: Jun 11 22:36 PDT
+"FPTest.Multiply_NaN_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 11 22:36 PDT
